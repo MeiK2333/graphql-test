@@ -8,7 +8,7 @@ import {
   Float,
   Int,
   ResolverInterface,
-} from "../../src";
+} from "type-graphql";
 import { plainToClass } from "class-transformer";
 
 import { Recipe } from "./recipe-type";

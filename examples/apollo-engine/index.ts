@@ -2,7 +2,7 @@ import "reflect-metadata";
 import { ApolloServer } from "apollo-server-express";
 import * as express from "express";
 import { ApolloEngine } from "apollo-engine";
-import { buildSchema } from "../../src";
+import { buildSchema } from "type-graphql";
 
 import { RecipeResolver } from "./recipe-resolver";
 

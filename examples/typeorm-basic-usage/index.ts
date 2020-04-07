@@ -2,7 +2,7 @@ import "reflect-metadata";
 import { ApolloServer } from "apollo-server";
 import { Container } from "typedi";
 import * as TypeORM from "typeorm";
-import * as TypeGraphQL from "../../src";
+import * as TypeGraphQL from "type-graphql";
 
 import { RecipeResolver } from "./resolvers/recipe-resolver";
 import { RateResolver } from "./resolvers/rate-resolver";

@@ -1,4 +1,4 @@
-import { Resolver, Query, Arg, Mutation } from "../../src";
+import { Resolver, Query, Arg, Mutation } from "type-graphql";
 import { plainToClass } from "class-transformer";
 
 import { getId, calculateAge } from "./helpers";

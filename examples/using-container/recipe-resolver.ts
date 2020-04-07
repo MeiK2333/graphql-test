@@ -1,4 +1,4 @@
-import { Resolver, Query, FieldResolver, Arg, Root, Mutation } from "../../src";
+import { Resolver, Query, FieldResolver, Arg, Root, Mutation } from "type-graphql";
 
 import { Recipe } from "./recipe-type";
 import { RecipeService } from "./recipe-service";

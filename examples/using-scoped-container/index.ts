@@ -2,7 +2,7 @@ import "reflect-metadata";
 import { ApolloServer } from "apollo-server";
 import Container, { ContainerInstance } from "typedi";
 import { GraphQLRequestContext, ApolloServerPlugin } from "apollo-server-plugin-base";
-import { buildSchema, ResolverData } from "../../src";
+import { buildSchema, ResolverData } from "type-graphql";
 
 import { RecipeResolver } from "./recipe/recipe.resolver";
 import { Context } from "./types";
