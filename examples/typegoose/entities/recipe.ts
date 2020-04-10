@@ -4,7 +4,7 @@ import {
   getModelForClass,
 } from "@typegoose/typegoose";
 import { ObjectId } from "mongodb";
-import { Field, ObjectType } from "../../../src";
+import { Field, ObjectType } from "type-graphql";
 
 import { Rate } from "./rate";
 import { User } from "./user";

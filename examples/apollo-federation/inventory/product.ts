@@ -1,4 +1,4 @@
-import { ObjectType, Directive, Field } from "../../../src";
+import { ObjectType, Directive, Field } from "type-graphql";
 
 import { inventory } from "./data";
 import { plainToClass } from "class-transformer";

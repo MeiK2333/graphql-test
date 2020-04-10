@@ -1,4 +1,4 @@
-import { Resolver, Query, Arg, Mutation, Ctx, Int } from "../../../src/";
+import { Resolver, Query, Arg, Mutation, Ctx, Int } from "type-graphql";
 import { Repository } from "typeorm";
 import { InjectRepository } from "typeorm-typedi-extensions";
 

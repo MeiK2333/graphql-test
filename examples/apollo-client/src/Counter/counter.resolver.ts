@@ -1,6 +1,6 @@
 import { gql } from "apollo-boost";
 import { ApolloCache } from "apollo-cache";
-import { Resolver, Mutation, Ctx } from "../../../../src";
+import { Resolver, Mutation, Ctx } from "type-graphql";
 
 import ApolloContext from "../apollo/context";
 import CounterType from "./counter.type";

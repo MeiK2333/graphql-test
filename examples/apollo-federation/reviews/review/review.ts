@@ -1,5 +1,5 @@
 import { Type } from "class-transformer";
-import { Directive, ObjectType, Field, ID } from "../../../../src";
+import { Directive, ObjectType, Field, ID } from "type-graphql";
 
 import User from "../user/user";
 import Product from "../product/product";

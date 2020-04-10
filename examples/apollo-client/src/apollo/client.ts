@@ -1,5 +1,5 @@
 import ApolloClient, { Resolvers } from "apollo-boost";
-import { buildTypeDefsAndResolvers } from "../../../../src";
+import { buildTypeDefsAndResolvers } from "type-graphql";
 
 import CounterResolver from "../Counter/counter.resolver";
 import CounterType from "../Counter/counter.type";

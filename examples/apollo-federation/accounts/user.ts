@@ -1,4 +1,4 @@
-import { Field, ObjectType, Directive, ID } from "../../../src";
+import { Field, ObjectType, Directive, ID } from "type-graphql";
 
 import { users } from "./data";
 
