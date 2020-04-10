@@ -1,4 +1,4 @@
-import { Resolver, FieldResolver, Root } from "../../../src";
+import { Resolver, FieldResolver, Root } from "type-graphql";
 import { Repository } from "typeorm";
 import { InjectRepository } from "typeorm-typedi-extensions";
 

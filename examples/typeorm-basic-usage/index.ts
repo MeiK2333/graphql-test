@@ -11,6 +11,8 @@ import { Rate } from "./entities/rate";
 import { User } from "./entities/user";
 import { seedDatabase } from "./helpers";
 
+require('dotenv').config();
+
 export interface Context {
   user: User;
 }
@@ -22,12 +24,8 @@ async function bootstrap() {
   try {
     // create TypeORM connection
     await TypeORM.createConnection({
-      type: "mysql",
-      database: "type-graphql",
-      username: "root", // fill this with your username
-      password: "qwerty123", // and password
-      port: 3306,
-      host: "localhost",
+      type: "sqlite",
+      database: "./db.sqlite",
       entities: [Recipe, Rate, User],
       synchronize: true,
       logger: "advanced-console",

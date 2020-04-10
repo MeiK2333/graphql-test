@@ -1,4 +1,4 @@
-import { Field, ID, ObjectType } from "../../../src";
+import { Field, ID, ObjectType } from "type-graphql";
 import { PrimaryGeneratedColumn, Column, Entity } from "typeorm";
 
 @ObjectType()
